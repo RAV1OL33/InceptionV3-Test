@@ -26,13 +26,14 @@ data/
             ...
 ```
 You can find them [there](www.microsoft.com/en-us/download/details.aspx) in microsoft download section
+
 Use pip install -r requirements.txt to install dependencies
 
 Ordering:
- -bottleneck_features.py: Fetching the bottleneck features from pretrained InceptionV3 as numpy arrays;
- -top_model.py: Training FFN model with numpy arrays;
- -complete_model.py: Training the complete model with images;
- -visualization.py: Visualize the result.
+ 1. bottleneck_features.py: Fetching the bottleneck features from pretrained InceptionV3 as numpy arrays;
+ 2. top_model.py: Training FFN model with numpy arrays;
+ 3. complete_model.py: Training the complete model with images;
+ 4. visualization.py: Visualize the result.
  
 This code has been successfully tested on:
 Windows 10, Anaconda3, Keras 2.4.3, tensorflow 2.3.0
