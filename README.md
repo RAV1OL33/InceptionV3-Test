@@ -1,7 +1,31 @@
 # InceptionV3 Test
 Keras implementation of InceptionV3 convolutional neural network in solving binary classification problems.
-In current state in current state requires at least 1k pics for each category in  test and validate directory.
 
+In current state in current state requires at least 1k pics for each category in  test and validate directory.
+```
+data/
+    train/
+        dogs/
+            dog000.jpg
+            dog002.jpg
+            ...
+            dog999.jpg
+        cats/
+            cat000.jpg
+            cat002.jpg
+            ...
+            cat999.jpg
+    validation/
+        dogs/
+            dog1000.jpg
+            dog1001.jpg
+            ...
+        cats/
+            cat1000.jpg
+            cat1001.jpg
+            ...
+```
+You can find them [there](www.microsoft.com/en-us/download/details.aspx) in microsoft download section
 Use pip install -r requirements.txt to install dependencies
 
 Ordering:
